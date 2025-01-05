@@ -1,0 +1,49 @@
+.homePage{
+  
+    display: flex;
+    height: 100%;
+    
+    .textContainer{
+        flex: 3;
+        background-color: rgb(255, 248, 240);
+
+        .wrapper{
+            padding-right: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 50px;
+            height: 100%;
+        }
+
+        .title{
+            font-size: 64px;
+        }
+
+        .boxes{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h1{
+            font-size: 36px;
+        }
+
+        h2{
+            font-size: 24px;
+            font-weight: 300;
+        }
+    }
+    .imgContainer{
+        flex: 2;
+        background-color: aliceblue;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+        width: 100%;
+        right: 0;
+    }
+}
